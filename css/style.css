@@ -10,11 +10,6 @@ body {
     height: 110vh;
 }
 
-header{
-    background-color: #0D4C57;
-    color: #f1f1f1;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -22,14 +17,18 @@ section {
     justify-content: center;
     padding: 20px;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
-.container-carga {
-    background-color: #fdfdfd;
+/* Header */
+
+header{
+    background-color: #0D4C57;
+    color: #f1f1f1;
 }
 
-li {
-    list-style-type: none;
+.box-title {
+    padding: 0rem 2rem;
 }
 
 h1 {
@@ -37,19 +36,69 @@ h1 {
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f1f1f1;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.logo-text {
+    font-size: 0.80rem;
+    color: #f1f1f1;
+    padding: 0rem;
+    margin: 0rem;
+    font-variant: small-caps;
 }
 
 .nav-link {
     color: #f1f1f1;
 }
 
+#navbarNav {
+    padding: 0rem 2rem;
+}
+
+
+/* Front */
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title-front {
+    color: #0D4C57;
+    font-size: 1.50rem;
+    font-weight: 600;
+}
+
+.subtitle-front {
+    color: #0D4C57;
+    font-size: 1rem;
+}
+
+/* Shopping cart */
+
 .submenu {
-    border: 1px solid lightblue;
+    border: 1px solid #ff7f00;
+    border-radius: 8px;
+    padding: 0rem 0.40rem;
 }
 
 .cart-subtitle, .btn-vaciar {
-    padding: 1rem 1.80rem;    
+    padding: 1rem 2rem;  
 }
+
+.btn-vaciar {
+    background-color: #ff7f00;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-size: medium;
+}
+
+/* Form inscripcion */
 
 .inscripcion {
     padding: 10px;
@@ -72,6 +121,9 @@ form {
     flex-direction: column;
     margin: 1rem auto;
 }
+
+
+
 
 .cursos {
     height: 600px;
