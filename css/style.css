@@ -56,8 +56,6 @@ h1 {
     padding: 0rem 2rem;
 }
 
-
-/* Front */
 .carousel-item {
     height: 65vh;
     min-height: 300px;
@@ -81,49 +79,48 @@ h1 {
 
 /* Shopping cart */
 
+li {
+    list-style: none;
+    font-style: normal;
+}
+
 .submenu {
-    border: 1px solid #ff7f00;
-    border-radius: 8px;
     padding: 0rem 0.40rem;
 }
 
-.cart-subtitle, .btn-vaciar {
-    padding: 1rem 2rem;  
+.cart-subtitle {
+    padding: 1rem;  
 }
 
 .btn-vaciar {
-    background-color: #ff7f00;
     border-radius: 10px;
-    color: #f1f1f1;
-    font-size: medium;
+    color: #ffffff;
+    background-color: #ff7f00;
+    font-size: 1rem;
+    padding: 0.60rem 1rem;
+    margin: 0rem;   
 }
 
-/* Form inscripcion */
-
-.inscripcion {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.btn-vaciar:hover {
+    background-color: #0D4C57;
+    border: 1px solid #0D4C57;
 }
 
-form {
-    background-color: #ebebf2;
-    border-radius: 8px;
-    padding: 1rem;
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.container-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 1rem auto;
+td {
+  padding: 1rem 1rem;
 }
 
+/* Cursos */
 
-
+.btn:hover {
+    background-color: #0D4C57;
+    border: 1px solid #0D4C57;
+}
 
 .cursos {
     height: 600px;
@@ -140,9 +137,34 @@ form {
     border-color: #ff7f00;
 }
 
-.suscripcion {
-    height: 500px;
+
+
+/* Form inscripcion */
+
+.inscripcion {
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inscripcion-curso {
+    font-size: 1.40rem;
+}
+
+form {
+    background-color: #ebebf2;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
 }
 
 footer {
